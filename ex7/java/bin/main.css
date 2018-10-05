@@ -1,0 +1,46 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.vBox{
+	-fx-background-color: darkslategray ;
+	
+}
+
+.hBox{
+	-fx-background-color: darkslategray ;
+	-fx-padding: 10.0;
+	
+}
+
+.lbl {
+	-fx-border-color: darkcyan ;
+	-fx-text-fill: white ;
+}
+
+.tLbl {
+	-fx-border-color: darkcyan ;
+	-fx-background-color: darkmagenta;
+	-fx-text-fill: white;
+}
+
+
+.grid {
+	-fx-background-color: darkslategray ;
+	-fx-alignment: center ;
+	-fx-hgap: 3.0;
+	-fx-vgap: 3.0;
+	
+	
+}
+
+.rect{
+	-fx-border-color: white ;
+	-fx-background-color: pink ;
+}
+
+
+.txtf {
+	
+	-fx-background-color: darkslategray ;
+	-fx-border-color: darkcyan ;
+	-fx-text-fill: white ;
+}

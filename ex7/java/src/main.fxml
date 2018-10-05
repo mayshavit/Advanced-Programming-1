@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.RadioButton?>
+
+<VBox styleClass="vBox" xmlns="http://java.fx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+	<children>
+		<HBox alignment="CENTER" spacing="5" styleClass="hBox">
+			<children>
+				<TextField fx:id="txtFlow" maxWidth="250" minWidth="250"
+					onKeyPressed="#handleEnter" styleClass="txtf" />
+				<TextField fx:id="txtDriver" maxWidth="250" minWidth="250"
+					onKeyPressed="#reciveDrivers" styleClass="txtf" />
+				<Label fx:id="timeLable" minWidth="250" maxHeight="50"
+					alignment="CENTER" styleClass="tLbl" />
+				<Label fx:id="errorLable" minWidth="250" maxHeight="50"
+					alignment="CENTER" styleClass="lbl" />
+			</children>
+		</HBox>
+		<GridPane fx:id="gridPane" styleClass="grid" />
+	</children>
+</VBox>
+
