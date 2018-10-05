@@ -1,0 +1,18 @@
+a) The number when we started to notice difference:
+java:
+2^19 - 0.133 seconds.
+2^20 - 0.589 seconds.
+2^21 - 1.168 seconds.
+2^22 - 2.557 seconds.
+2^23 - 3.108 seconds.
+2^24 - 9.002 seconds.
+2^25 - 1 minute and 10.394 seconds - the program couldn't take it anymore.
+c++:
+2^19 - 0.077 seconds.
+2^20 - 0.158 seconds.
+2^21 - 0.296 seconds.
+2^22 - 0.581 seconds.
+2^23 - 1.165 seconds.
+2^24 - 2.335 seconds.
+2^25 - 4.695 seconds.
+b) The number when the program couldn't take it anymore: 2^25.
